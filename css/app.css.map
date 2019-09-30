@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,KAAK,ECDY,GAAG",
+"sources": ["../scss/_type.scss","../scss/_vars.scss"],
+"names": [],
+"file": "app.css"
+}

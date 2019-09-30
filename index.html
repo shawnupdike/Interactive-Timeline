@@ -4,168 +4,498 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>War Torn</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
+
+  <header></header>
+  
   <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-        </div>
-      </div>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<!--------------------------------------------------------------------------------------------->
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
+  <div class="grid-container">
+  <div class="grid-x">
 
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
+  <div class="cell medium-4 medium-order-1 small-12 small-order-1">
+  <div class="image section">
+  <img src="img/testpic.png">
+  </div>
+  </div> 
 
-          <hr />
+  <div class="cell medium-4 medium-order-2 small-12 small-order-2"> 
+  <div class="box"> 
+     <h2>Invasion of Poland</h2>
+     <h3>September 01, 1939</h3>
 
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
+     <p>On this day in 1939, German forces bombard Poland on 
+     land and from the air, as Adolf Hitler seeks to regain lost 
+     territory and ultimately rule Poland. World War II had begun.</p>
+  </div>
+  </div>
 
-        <div class="large-4 medium-4 cell">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-          <a href="#" class="success button">Success Btn</a><br/>
-          <a href="#" class="alert button">Alert Btn</a><br/>
-          <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="cell medium-4 medium-order-3 small-12 small-order-3">
+  <div class="box"> 
+     <p>The German invasion of Poland was a primer on how Hitler 
+     intended to wage war–what would become the “blitzkrieg” 
+     strategy. This was characterized by extensive bombing early 
+     on to destroy the enemy’s air capacity, railroads, communication 
+     lines, and munitions dumps, followed by a massive land invasion 
+     with overwhelming numbers of troops, tanks, and artillery. Once 
+     the German forces had plowed their way through, devastating 
+     a swath of territory, infantry moved in, picking off any remaining 
+     resistance.</p>
+
+     <p>Great Britain would respond with bombing raids over Germany 
+     three days later.</p>
+     </div>
+     </div>
+     </div>
+     </div>
+
+<!--------------------------------------------------------------------------------------------->
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Dunkirk</h2>
+     <h3>May 1940</h3>
+
+     <p>In May 1940, Germany advanced into France, trapping Allied troops 
+     on the beaches of Dunkirk. Under air and ground cover from British 
+     and French forces, troops were slowly and methodically evacuated 
+     from the beach using every serviceable naval and civilian vessel that 
+     could be found. At the end of this heroic mission, 330,000 French, British, 
+     Belgian and Dutch soldiers were safely evacuated.
+     </p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div>
+
+<!--------------------------------------------------------------------------------------------->
+    
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-9 small-12 align-center">
+  <div class="image section">
+  <img src="img/mockphoto.png">
+  </div>
+  </div> 
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Battle of Britain</h2>
+     <h3>July 10, 1940</h3>
+
+     <p>The Battle of Britain started on July 10th, 1940. It lasted 
+     many months as the Germans continued to bomb Britain.</p>
+
+     <p>Germany needed to prepare for the invasion of Britain, so 
+     they first attacked towns and army defenses on the southern 
+     coast. However, they soon found that Britain's Royal Air Force 
+     was a formidable opponent. The Germans decided to focus 
+     their efforts on defeating the Royal Air Force. This meant they 
+     bombed airport runways and British radar.</p>
+
+     <p>Although the German bombings continued, the British did not 
+     stop fighting back. Hitler began to get frustrated at how long it 
+     was taking to defeat Great Britain. He soon switched tactics and 
+     started bombing large cities including London.</p>
+     </div>
+     </div>
+     </div>
+     
+<!---------------------------------------------------------------------------------------------> 
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Midway</h2>
+     <h3>May 1941</h3>
+
+     <p>Six months after the attack on Pearl Harbor, the United States defeated 
+     Japan in one of the most decisive naval battles of World War II. Thanks 
+     in part to major advances in code breaking, the United States was able 
+     to preempt and counter Japan’s planned ambush of its few remaining 
+     aircraft carriers, inflicting permanent damage on the Japanese Navy. 
+     An important turning point in the Pacific campaign, the victory allowed 
+     the United States and its allies to move into an offensive position.</p>
+
+     <p>Analysts often point to Japanese aircraft losses at Midway as eliminating 
+     the power of the Imperial Navy’s air arm, but in fact about two-thirds of 
+     air crews survived. More devastating was the loss of trained mechanics 
+     and aircraft ground crews who went down with the ships. Some historians 
+     see Midway as the turning point in the Pacific theater of the war, after 
+     which Americans rode straight to Tokyo; others view it as a cusp in the 
+     war, after which initiative hung in the balance, to swing toward the Allies 
+     in the Guadalcanal campaign. Either way, Midway ranks as a truly 
+     decisive battle.</p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div> 
+
+<!---------------------------------------------------------------------------------------------> 
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-9 small-12 align-center">
+  <div class="image section">
+  <img src="img/mockphoto.png">
+  </div>
+  </div> 
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Pearl Harbor</h2>
+     <h3>December 7, 1941</h3>
+
+     <p>The Attack on Pearl Harbor happened on December 7th, 1941. Japanese 
+     airplanes made a surprise attack on the US Navy in Pearl Harbor. They 
+     destroyed many ships and killed many soldiers. It was this attack that forced 
+     the United States to enter World War II.</p>
+     </div>
+     </div>
+     </div>
+
+<!---------------------------------------------------------------------------------------------> 
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+     <div class="cell medium-3 small-12 align-center">  
+     <h2>Stalingrad</h2>
+     <h3>Sept. 1942 - Feb. 1943</h3>
+
+     <p>The Battle for Stalingrad was fought during the winter of 1942 to 1943. 
+     In September 1942, the German commander of the Sixth Army, 
+     General Paulus, assisted by the Fourth Panzer Army, advanced on the 
+     city of Stalingrad. His primary task was to secure the oil fields in the 
+     Caucasus and to do this, Paulus was ordered by Hitler to take Stalingrad. 
+     The Germans final target was to have been Baku.</p>
+
+     <p>In early September 1942, the German Army advanced to the city. 
+     The Russians, already devastated by the power of Blitzkrieg during 
+     Operation Barbarossa, had to make a stand especially as the city 
+     was named after the Russian leader, Joseph Stalin. For simple reasons 
+     of morale, the Russians could not let this city fall. Likewise, the Russians 
+     could not let the Germans get hold of the oil fields in the Caucasus. 
+     Stalin’s order was “Not a step backwards”.</p>
+
+     <p>Despite resistance in parts – such as a Kursk – they were in retreat on the 
+     Eastern Front from February 1943 on. In his fury, Hitler ordered a day’s 
+     national mourning in Germany, not for the men lost at the battle, but 
+     for the shame von Paulus had brought on the Wehrmacht and Germany. 
+     Paulus was also stripped of his rank to emphasise Hitler’s anger with him. 
+     Hitler commented:</p>
+
+     <p>“The God of War has gone over to the other side.”</p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div>
+
+<!---------------------------------------------------------------------------------------------> 
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-9 small-12 align-center">
+  <div class="image section">
+  <img src="img/mockphoto.png">
+  </div>
+  </div> 
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Battle of the Bulge</h2>
+     <h3>Dec. 16 1944 - Jan 16, 1945</h3>
+
+     <p>The Battle of the Bulge (December 16, 1944–January 16, 1945), also known as 
+     the Ardennes Offensive, was the largest battle fought on the Western Front in 
+     Europe during World War II; it is also the largest battle ever fought by the United 
+     States Army. It was a German offensive intended to drive a wedge between 
+     the American and British armies in France and the Low Countries and recapture 
+     the port of Antwerp in The Netherlands to deny the Allies use of the port facilities. 
+     The German codename for the buildup to the offensive was Watch on the Rhine 
+     (Wacht am Rhine). The actual offensive was codenamed Operation Autumn Mist 
+     (Unternehmen Herbstnebel). It fell far short of its goals but managed to create a 
+     bulge in the American lines 50 miles wide and 70 miles deep, which gave the 
+     struggle its alliterative name. The phrase “battle of the bulge” already existed in 
+     the American lexicon as a term for attempts to lose body weight.</p>
+
+     <p>The initial German attack force consisted of more than 200,000 men, around 
+     1,000 tanks and assault guns (including the new 70-ton Tiger II tanks) and 1,900 
+     artillery pieces, supported by 2,000 aircraft, the latter including some Messerschmitt 
+     Me 262 jets. In the opening phases of the battle, they would be facing only some 
+     80,000 men, less than 250 pieces of armor and about 400 artillery guns. Many of 
+     the American troops were inexperienced; the German force included battle-
+     hardened veterans of the tough fighting on the Eastern Front, but they, too, had 
+     green units filled with boys and with men who normally would have been considered 
+     too old for military service.</p>
+
+     <p>By this time, the Nazi offensive was running out of fuel, literally and figuratively. The 
+     Germans had waited for bad winter weather to launch their attack, to diminish the 
+     ability of Allied aircraft to support the ground troops. The weather also slowed the 
+     German advance, however, and this, the narrow roads and stubborn resistance 
+     wrecked their timetable. Improving weather conditions allowed Allied planes to 
+     take to the skies again and support the counterattacks that began pushing back 
+     the Germans. Despite a Luftwaffe offensive in Holland and a second major ground 
+     offensive the Germans launched in Alsace on January 1, the Third Reich could not 
+     regain the initiative. The Battle of the Bulge is officially considered to have ended 
+     January 16, exactly one month after it began, although fighting continued for some 
+     time beyond that date. By early February, the front lines had returned to their positions 
+     of December 16.</p>
+     </div>
+     </div>
+     </div> 
+
+<!---------------------------------------------------------------------------------------------> 
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+     <div class="cell medium-3 small-12 align-center">  
+     <h2>D-Day Invasion</h2>
+     <h3>June 6, 1944</h3>
+
+     <p>D-Day: The Invasion of Normandy. On June 6, 1944 the Allied Forces of Britain, 
+     America, Canada, and France attacked German forces on the coast of 
+     Normandy, France. With a huge force of over 150,000 soldiers, the Allies attacked 
+     and gained a victory that became the turning point for World War II in Europe.</p>
+
+     <p>Eisenhower selected June 5, 1944, as the date for the invasion; however, bad weather
+     on the days leading up to the operation caused it to be delayed for 24 hours. On the 
+     morning of June 5, after his meteorologist predicted improved conditions for the following 
+     day, Eisenhower gave the go-ahead for Operation Overlord. He told the troops: “You are 
+     about to embark upon the Great Crusade, toward which we have striven these many 
+     months. The eyes of the world are upon you.”</p>
+
+     <p>For their part, the Germans suffered from confusion in the ranks and the absence of celebrated 
+     commander Rommel, who was away on leave. At first, Hitler, believing the invasion was a feint 
+     designed to distract the Germans from a coming attack north of the Seine River, refused to 
+     release nearby divisions to join the counterattack. Reinforcements had to be called from 
+     further afield, causing delays. He also hesitated in calling for armored divisions to help in the 
+     defense. Moreover, the Germans were hampered by effective Allied air support, which took 
+     out many key bridges and forced the Germans to take long detours, as well as efficient Allied 
+     naval support, which helped protect advancing Allied troops.</p>
+
+     <p>By the end of August 1944, the Allies had reached the Seine River, Paris was liberated and the 
+     Germans had been removed from northwestern France, effectively concluding the Battle of 
+     Normandy. The Allied forces then prepared to enter Germany, where they would meet up with 
+     Soviet troops moving in from the east.</p>
+
+     <p>The Normandy invasion began to turn the tide against the Nazis. A significant psychological blow, 
+     it also prevented Hitler from sending troops from France to build up his Eastern Front against the 
+     advancing Soviets. The following spring, on May 8, 1945, the Allies formally accepted the 
+     unconditional surrender of Nazi Germany. Hitler had committed suicide a week earlier, on April 30.
+     </p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div>
+
+<!--------------------------------------------------------------------------------------------->
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-9 small-12 align-center">
+  <div class="image section">
+  <img src="img/mockphoto.png">
+  </div>
+  </div> 
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Iwo Jima</h2>
+     <h3>Feb. 19, 1945</h3>
+
+     <p>The Battle of Iwo Jima was an epic military campaign between U.S. Marines 
+     and the Imperial Army of Japan in early 1945. Located 750 miles off the coast 
+     of Japan, the island of Iwo Jima had three airfields that could serve as a staging 
+     facility for a potential invasion of mainland Japan. American forces invaded the 
+     island on February 19, 1945, and the ensuing Battle of Iwo Jima lasted for five weeks. 
+     In some of the bloodiest fighting of World War II, it’s believed that all but 200 or so 
+     of the 21,000 Japanese forces on the island were killed, as were almost 7,000 Marines. 
+     But once the fighting was over, the strategic value of Iwo Jima was called into question.</p>
+
+     <p>Battles raged on in the northern part of Iwo Jima for four weeks, with Kuribayashi essentially 
+     setting up a garrison in the mountains in that part of the island. On March 25, 1945, 300 of 
+     Kuribayashi’s men mounted a final banzai attack.</p>
+
+     <p>The American forces sustained a number of casualties, but ultimately quelled the attack. 
+     Although the American military declared that Iwo Jima had been captured the next day, 
+     American forces spent weeks on end trudging through the island’s jungles, finding and 
+     killing or capturing Japanese “holdouts” who refused to surrender and opted to continue 
+     fighting.</p>
+
+     <p>Dozens of Americans were killed during this process. Two Japanese holdouts continued to 
+     hide in the island’s caves, scavenging food and supplies until they finally surrendered in 1949, 
+     almost four years after the end of World War II.</p>
+
+     <p>In the end, neither the U.S. Army nor the U.S. Navy was able to use Iwo Jima as a World War II 
+     staging area. Navy Seabees, or construction battalions, did rebuild the airfields for Air Force 
+     pilots to use in case of emergency landings.</p>
+     </div>
+     </div>
+     </div> 
+
+<!--------------------------------------------------------------------------------------------->
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Okinawa</h2>
+     <h3>April 1, 1945</h3>
+
+     <p>The Battle of Okinawa was the last major battle of World War II, 
+     and one of the bloodiest. On April 1, 1945—Easter Sunday—the 
+     Navy’s Fifth Fleet and more than 180,000 U.S. Army and U.S. Marine 
+     Corps troops descended on the Pacific island of Okinawa for a 
+     final push towards Japan. The invasion was part of Operation Iceberg, 
+     a complex plan to invade and occupy the Ryukyu Islands, including 
+     Okinawa.</p>
+
+     <p>As dawn arrived on April 1, morale was low among American troops as 
+     the Fifth Fleet launched the largest bombardment ever to support a troop 
+     landing to soften Japanese defenses.</p>
+
+     <p>Japan’s 32nd Army, some 130,000 men strong and commanded by Lt. Gen. 
+     Mitsuru Ushijima, defended Okinawa. The military force also included an 
+     unknown number of conscripted civilians and unarmed Home Guards known 
+     as Boeitai.</p>
+
+     <p>The kamikaze suicide pilot was Japan’s most ruthless weapon. On April 4, the 
+     Japanese unleashed these well-trained pilots on the Fifth Fleet. Some dove 
+     their planes into ships at 500 miles per hour causing catastrophic damage.
+     About 7,000 Japanese soldiers surrendered, but many chose death by suicide. 
+     Some jumped from high hills, others blew themselves up with grenades.</p>
+
+     <p>Winning the Battle of Okinawa put Allied forces within striking distance of Japan. 
+     But wanting to bring the war to a swift end, and knowing over 2 million Japanese 
+     troops were awaiting battle-weary American soldiers, Harry S. Truman chose to 
+     drop an atomic bomb on Hiroshima on August 6.</p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div> 
+
+<!--------------------------------------------------------------------------------------------->
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-9 small-12 align-center">
+  <div class="image section">
+  <img src="img/mockphoto.png">
+  </div>
+  </div> 
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Siege of Berlin</h2>
+     <h3>April 29, 1945</h3>
+
+     <p>In the early hours of 29 April the Soviet 3rd Shock Army crossed the Moltke bridge and 
+     started to fan out into the surrounding streets and buildings.[83] The initial assaults on 
+     buildings, including the Ministry of the Interior, were hampered by the lack of supporting 
+     artillery. It was not until the damaged bridges were repaired that artillery could be moved 
+     up in support.[84] At 04:00 hours, in the Führerbunker, Hitler signed his last will and testament 
+     and, shortly afterwards, married Eva Braun.[85] At dawn the Soviets pressed on with their 
+     assault in the south-east. After very heavy fighting they managed to capture Gestapo 
+     headquarters on Prinz-Albrechtstrasse, but a Waffen-SS counter-attack forced the Soviets to 
+     withdraw from the building.[86] To the south-west the 8th Guards Army attacked north across 
+     the Landwehr canal into the Tiergarten.</p>
+
+     <p>On the night of 1/2 May, most of the remnants of the Berlin garrison attempted to break out 
+     of the city centre in three different directions. Only those that went west through the Tiergarten 
+     and crossed the Charlottenbrücke (a bridge over the Havel) into Spandau succeeded in 
+     breaching Soviet lines.[103] Only a handful of those who survived the initial breakout made 
+     it to the lines of the Western Allies—most were either killed or captured by the Red Army's outer 
+     encirclement forces west of the city.[104] Early in the morning of 2 May, the Soviets captured 
+     the Reich Chancellery. General Weidling surrendered with his staff at 06:00 hours. He was taken 
+     to see General Vasily Chuikov at 08:23, where Weidling ordered the city's defenders to surrender 
+     to the Soviets.</p>
+
+     <p>The 350-strong garrison of the Zoo flak tower left the building. There was sporadic fighting in a few 
+     isolated buildings where some SS troops still refused to surrender, but the Soviets reduced such 
+     buildings to rubble.</p>
+     </div>
+     </div>
+     </div>
+
+<!--------------------------------------------------------------------------------------------->
+
+  <div class="grid-container">
+  <div class="grid-x">
+
+  <div class="cell medium-3 small-12 align-center">  
+     <h2>Hiroshima & Nagasaki</h2>
+     <h3>August 6, 1945</h3>
+
+     <p>On August 6, 1945, during World War II (1939-45), an American B-29 bomber 
+     dropped the world’s first deployed atomic bomb over the Japanese city of 
+     Hiroshima. The explosion wiped out 90 percent of the city and immediately 
+     killed 80,000 people; tens of thousands more would later die of radiation exposure. 
+     Three days later, a second B-29 dropped another A-bomb on Nagasaki, killing 
+     an estimated 40,000 people. Japan’s Emperor Hirohito announced his country’s 
+     unconditional surrender in World War II in a radio address on August 15, citing the 
+     devastating power of “a new and most cruel bomb.”</p>
+
+     <p>At noon on August 15, 1945 (Japanese time), Emperor Hirohito announced his country’s 
+     surrender in a radio broadcast. The news spread quickly, and “Victory in Japan” or “V-J Day” 
+     celebrations broke out across the United States and other Allied nations. The formal surrender 
+     agreement was signed on September 2, aboard the U.S. battleship Missouri, anchored in Tokyo Bay.
+     </p>
+     </div>
+
+     <div class="cell medium-9 small-12 align-center">
+     <div class="image section">
+     <img src="img/mockphoto.png">
+     </div>
+     </div> 
+     </div>
+     </div> 
+
+<!--------------------------------------------------------------------------------------------->
+
+
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
   </body>
+
+  <footer></footer>
+  
 </html>

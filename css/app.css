@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+}
+
+body {
+  background-image: url(../img/backgroundtestpic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: ;
+} 
+
+.box {
+	width: 100%;
+	height: 500px;
+	background-color: #999;
+	padding: 2rem;
+	margin: 2rem;
+    opacity:
+}
+
+
+
+/*# sourceMappingURL=app.css.map */
