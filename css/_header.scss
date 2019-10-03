@@ -1,0 +1,28 @@
+
+<!-----------------------------------------------------------------------------------------------------
+
+(CODE FOR BEING ABLE TO JUMP FROM ARTICLE TO ARTICLE)
+
+$baseunit: .5rem;
+
+body {
+  padding: $baseunit*6;
+}
+
+nav {
+  ul {
+    margin: 0 0 $baseunit*2;
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin-right: $baseunit*2;
+    }
+  }
+}
+
+.selected {
+  display: block;
+}
+
+-------------------------------------------------------------------------------------------------------->
