@@ -1,3 +1,192 @@
+html, body {
+  height: 100%;
+}
+
+
+@media screen and (min-width: 40em){
+
+header {
+  width: 100%;
+  background-color: #eee;
+  position: fixed;
+  height: 28vh;
+  z-index: 1;
+  margin-top: -3.75rem;
+  }
+}
+
+.intro img {
+  position: relative;
+}
+
+.menu {
+  position: relative;
+  justify-content: center;
+}
+
+.menu li {
+  margin: .7rem;
+}
+
+
+.menu a {
+  font-family: 'Allerta Stencil', sans-serif;
+  padding: 0;
+  color: black;
+}
+
+
+h2 {
+  position: relative;
+  font-family: 'Saira Stencil One', cursive;
+}
+
+h3 {
+  position: relative;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+p {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: ;
+} 
+
+body h2 + h3 {
+  opacity: 1.0;
+}
+
+.box {
+  width: 100%;
+  height: 500px;
+  background-color: #999;
+  padding: 2rem;
+  margin: 2rem;
+  opacity: 0.875;
+  position: relative;
+}
+
+.box2 {
+  width: 100%;
+  height: 150px;
+  background-color: #999;
+  padding: 2rem;
+  margin-top: 12rem;
+  opacity: 0.85;
+  position: relative;
+}
+
+.grid-container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.intro {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/homebg.jpg);
+  background-repeat: no-repeat;
+}
+
+.intro img{
+  margin-top: 5rem;
+}
+
+#one {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/polandbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#two {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/dunkirkbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#three {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/battlebritainbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#four {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/midwaybg.jpg);
+  background-repeat: no-repeat;
+}
+
+#five {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/pearlharborbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#six {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/stalingradbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#seven {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/bulgebg.jpg);
+  background-repeat: no-repeat;
+}
+
+#eight {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/d-daybg.jpg);
+  background-repeat: no-repeat;
+}
+
+#nine {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/iwojimabg.jpg);
+  background-repeat: no-repeat;
+}
+
+#ten {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/okinawabg.jpg);
+  background-repeat: no-repeat;
+}
+
+#eleven {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/berlinbg.jpg);
+  background-repeat: no-repeat;
+}
+
+#twelve {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(../img/nukebg.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.box a {
+  color: black;
+  font-weight: bold;
+}
+
 .panel img {
   width: 100%;
   transition: all .4s; }
